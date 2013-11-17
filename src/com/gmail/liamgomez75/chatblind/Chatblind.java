@@ -32,7 +32,7 @@ public class Chatblind extends JavaPlugin {
                     if (target != null) {
                         final Location location = target.getLocation();
                         target.playSound(location, Sound.NOTE_PLING, 1, 0);
-                        target.sendMessage(ChatColor.GOLD + sender.getName() + " is trying to get your attention.");
+                        target.sendMessage(ChatColor.GOLD + sender.getName() + " is trying to get your attention");
                         sender.sendMessage(ChatColor.GRAY + "Alert sent");
                     } else {
                         sender.sendMessage(ChatColor.RED + "No player named '" + args[1] + "' online right now");
