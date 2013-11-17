@@ -1,0 +1,12 @@
+## YAML Template.
+---
+name: Chatblind
+main: com.gmail.liamgomez75.chatblind.Chatblind
+version: 1.0
+
+commands:
+    chatblind:
+        description: Gets a players attention!
+        aliases: [cb]
+        usage: /<command> alert <playername>
+        permissions: chatblind.alert
