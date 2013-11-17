@@ -1,5 +1,3 @@
-## YAML Template.
----
 name: Chatblind
 main: com.gmail.liamgomez75.chatblind.Chatblind
 version: 1.0
